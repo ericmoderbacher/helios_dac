@@ -34,7 +34,7 @@ GetStatus() for timing purposes.
 #pragma once
 
 #define _WINSOCKAPI_   // Prevent inclusion of winsock.h in windows.h from libusb.h
-#include "libusb.h"
+#include "/opt/homebrew/Cellar/libusb/1.0.27/include/libusb-1.0/libusb.h"
 #include "idn/idn.h"
 #include "idn/idnServerList.h"
 #include <cstring>

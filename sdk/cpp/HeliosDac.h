@@ -35,8 +35,8 @@ GetStatus() for timing purposes.
 
 #define _WINSOCKAPI_   // Prevent inclusion of winsock.h in windows.h from libusb.h
 #include "libusb.h"
-#include "idn/idn.h"
-#include "idn/idnServerList.h"
+#include "idn/include/idn.h"
+#include "idn/include/idnServerList.h"
 #include <cstring>
 #include <cstdint>
 #include <thread>

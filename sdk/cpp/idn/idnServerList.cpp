@@ -47,12 +47,12 @@
     #include <unistd.h>
     #include <ifaddrs.h>
 
-    #include "plt-posix.h"
+    #include "include/plt-posix.h"
 
 #endif
 
-#include "idn-hello.h"
-#include "idnServerList.h"
+#include "include/idn-hello.h"
+#include "include/idnServerList.h"
 
 
 // -------------------------------------------------------------------------------------------------

@@ -2,7 +2,7 @@
 
 // Functions for ILDA Digital Network DAC communication
 
-#include "idn.h"
+#include "include/idn.h"
 
 
 

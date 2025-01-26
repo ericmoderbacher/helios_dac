@@ -22,7 +22,7 @@ int main(void)
 
 			frame[i][j].x = x;
 			frame[i][j].y = y;
-			frame[i][j].r = 0xD000;
+			frame[i][j].r = 256;
 			frame[i][j].g = 0xFFFF;
 			frame[i][j].b = 0xD000;
 			//frame[i][j].user1 = 0; // Use HeliosPointExt with WriteFrameExtended() if you need more channels

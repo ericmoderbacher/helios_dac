@@ -52,7 +52,7 @@ target_include_directories(helios_dac PUBLIC ${HELIOS_SOURCE_DIR} ${HELIOS_INCLU
 
 
 # Link `libusb` to the Helios library
-target_link_libraries(helios_dac PUBLIC ${LIBUSB_LIBRARIES} idn)
+target_link_libraries(helios_dac PUBLIC ${LIBUSB_LINK_LIBRARIES} idn)
 
 # Optional: Add an executable to test the SDK with the USB device
 #add_executable(helios_test ${HELIOS_SOURCE_DIR}/example.cpp)
